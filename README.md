@@ -1,9 +1,18 @@
 # Agent Playbook
 
-> 一套面向**单人 + 多 AI Agent** 协同工作的方法论与可复用工作流。
+> A battle-tested playbook for **one human + many AI agents** (Claude Code / Codex / Cursor / Kimi / ...).
+>
+> 中文文档 · Chinese documentation. Covers context engineering, agent memory architecture, evidence discipline,
+> handoff protocols, and copy-paste workflows for multi-agent collaboration.
+>
 > 全部内容已脱密：不含任何个人信息、机构名称、项目细节、学生信息或商业数据。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/AlexWangzhixin/agent-playbook?style=social)](https://github.com/AlexWangzhixin/agent-playbook/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+**Keywords**: `ai-agents` `llm` `context-engineering` `agent-memory` `mcp` `claude-code` `codex`
+`multi-agent` `ai-workflow` `best-practices` `knowledge-management` `awesome`
 
 ---
 
@@ -76,6 +85,7 @@ Source: <会话/文件/任务>
 agent-playbook/
 ├── README.md
 ├── LICENSE
+├── CONTRIBUTING.md
 ├── method/
 │   ├── evidence-discipline.md     证据分级与表述纪律
 │   ├── memory-stack.md            多层记忆栈：归属、权威源、防竞争副本
